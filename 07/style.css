@@ -1,0 +1,22 @@
+ body {
+     text-align: center;
+ }
+ 
+ table {
+     width: 60%;
+     margin: auto;
+     /*自動分配大小(置中)*/
+     font-size: 1.5em;
+ }
+ 
+ td {
+     border-bottom: 1px solid blue;
+ }
+ 
+ .co {
+     color: red;
+ }
+ 
+ .color {
+     color: rgb(187, 0, 187);
+ }
