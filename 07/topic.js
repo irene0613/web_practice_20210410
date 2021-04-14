@@ -22,15 +22,15 @@
      topic.push(topic1);*/
  var month;
  month = window.prompt("Please enter Month");
- if (month > 12 | month < 1)
+ while (month > 12 | month < 1)
      month = window.prompt("Please enter Month");
  var date;
  date = window.prompt("Please enter Date");
- if (month == 1 | month == 3 | month == 5 | month == 7 | month == 8 | month == 10 | month == 12 && date > 31 | date < 1)
+ while (month == 1 | month == 3 | month == 5 | month == 7 | month == 8 | month == 10 | month == 12 && date > 31 | date < 1)
      date = window.prompt("Please enter Date");
- else if (month == 4 | month == 6 | month == 9 | month == 11 && date > 30 | date < 1)
+ while (month == 4 | month == 6 | month == 9 | month == 11 && date > 30 | date < 1)
      date = window.prompt("Please enter Date");
- else if (month == 2 && date > 29 | date < 1)
+ while (month == 2 && date > 29 | date < 1)
      date = window.prompt("Please enter Date");
  setMonthAndDay(month, date); //呼叫前面的funtion
  //setMonthAndDay(4, 1);
