@@ -1,25 +1,29 @@
-p,
-ul {
-    border: 2px solid rgb(184, 15, 184);
-    padding: .5em;
-}
-
-.block,
-li {
-    border: 2px solid rgba(40, 40, 255, 0.966);
-    padding: .5em;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-}
-
-li {
-    margin: 0px 10px;
-}
-
-.block {
-    display: block;
-    border-bottom: 5px groove red;
-}
+    body {
+        background-color: #FFF8D7;
+    }
+    
+    p,
+    ul {
+        border: 2px solid rgb(184, 15, 184);
+        padding: .5em;
+    }
+    
+    .block,
+    li {
+        border: 2px solid rgba(40, 40, 255, 0.966);
+        padding: .5em;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    li {
+        margin: 0px 10px;
+    }
+    
+    .block {
+        display: block;
+        border-bottom: 5px groove red;
+    }
