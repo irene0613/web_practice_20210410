@@ -1,35 +1,58 @@
-    div {
-        width: 350px;
-        height: 200px;
-        margin: 100px 0px 0px 100px;
-        background-color: green;
-    }
-    
-    img {
-        width: 100px;
-        height: 100px;
-        margin: -40px 0px 0px 115px;
-    }
-    
-    img {
-        -webkit-animation: 'rotate1'2s linear infinite;
-        animation: 'rotate1'3s linear infinite;
-    }
-    
-    @-webkit-keyframes rotate1 {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg);
-        }
-    }
-    
-    @keyframes rotate1 {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg);
-        }
-    }
+ body {
+     background-color: bisque;
+ }
+ 
+ #rect1 {
+     width: 350px;
+     height: 200px;
+     border-radius: 15px;
+     margin: 100px 0px 0px 100px;
+     background-color: green;
+ }
+ 
+ #rect2 {
+     width: 350px;
+     height: 200px;
+     border-radius: 15px;
+     margin: 100px 0px 0px 100px;
+     background-color: red;
+ }
+ 
+ #end {
+     position: absolute;
+     top: 0;
+     right: 30px;
+     width: 30px;
+     height: 800px;
+     margin: 0px 0px 0px 0px;
+     background-color: black;
+ }
+ 
+ img {
+     width: 100px;
+     height: 100px;
+     margin: -40px 0px 0px 115px;
+ }
+ 
+ img {
+     -webkit-animation: 'rotate1'2s linear infinite;
+     animation: 'rotate1'3s linear infinite;
+ }
+ 
+ @-webkit-keyframes rotate1 {
+     from {
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes rotate1 {
+     from {
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }

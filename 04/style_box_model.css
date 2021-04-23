@@ -22,3 +22,13 @@
      border: 2px solid;
      background-color: yellow;
  }
+ 
+ div:hover {
+     margin: 30px;
+ }
+ 
+ #BoxContent:hover {
+     border: 2px dashed;
+     padding-bottom: 150px;
+     background-color: rgb(182, 40, 182);
+ }

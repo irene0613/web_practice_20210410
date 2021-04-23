@@ -27,3 +27,12 @@
         display: block;
         border-bottom: 5px groove red;
     }
+    
+    li:hover {
+        font-size: 150%;
+    }
+    
+    span:hover {
+        font-size: 150%;
+        text-align: center;
+    }
