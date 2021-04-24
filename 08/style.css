@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(192, 155, 111);
+}
+
+#t1 {
+    position: absolute;
+    border-width: 20;
+    border-style: double;
+    top: 160;
+    left: 50;
+    border-color: bisque;
+}
+
+#t2 {
+    position: absolute;
+    border-width: 20;
+    border-style: double;
+    top: 30;
+    left: 50;
+    border-color: rgb(184, 47, 184);
+}
+
+#end {
+    position: absolute;
+    top: 0;
+    right: 400px;
+    width: 30px;
+    height: 800px;
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+}
